@@ -1,0 +1,142 @@
+/* displaying logo of shop*/
+
+logo {
+    content: url(logo.png);
+    height: 120px;
+    width: 150px;
+    margin-top: -100px;
+}
+/* displaying shop information*/
+shop_information {
+    display: list-item;
+    background: black;
+}
+/* displaying shop name*/
+shop_name {
+    font-family: Georgia, serif;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color:MediumSeaGreen;
+    font-size: 40px;
+}
+/* displaying shop information*/
+telephone_number, website_address, address {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color:MediumSeaGreen;
+}
+/* displaying website address*/
+website_address{
+    padding-right:40px;
+    float:right;
+    margin-top:-20px;
+}
+/* displaying the items(cars) of shop*/
+item {
+    display:inline;
+	float: left;
+    width: 48%;
+    padding :50px;
+    color:white;
+    margin-left:1.2%;
+    margin-top:1.2%;
+    font-size:17px;
+    font-family: "Gill Sans", sans-serif;
+    box-sizing: border-box; 
+    border: 2px solid gray;
+    background:rgb(47,79,79);
+    
+}
+
+/* displaying car features in list item order*/
+item_number{
+font-size:25px;
+text-decoration: underline;
+display:block;
+}
+brand_name, quantity, price,manufacturer, car_type,
+color, dimension, TransmissionGearType, seating_capacity, Displacement,
+Power, gears{
+	margin-left:50px;
+    display: list-item;
+    list-item-style:decimal;
+    font-family: system-ui;
+    
+}
+
+item_name{
+    padding-left:35%;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size:20px;
+    padding-bottom:40px;
+    
+}
+description{
+    color:yellow;
+font: caption;}
+
+/* displaying car image*/
+car_image {
+	display:block;
+	height:370px;
+	width:100%; 
+	border-style: solid;
+    background:darkslategray;
+    margin-bottom:10px;
+}
+/*displaying car image of item 1 Maruti Alto 800*/
+#c101 {
+	
+	content: url('car1.jpg');
+	}
+/*displaying car image of item 2 Ford Figo*/
+#c102 {
+	
+	content: url('car2.jpg');
+	}
+/*displaying car image of item 3 Hyundai Elite i20*/
+#c103 {
+	
+	content: url('car3.jpg');
+	}
+/*displaying car image of item 4 Chevrolet Spark*/
+#c104 {
+	
+	content: url('car4.jpg');
+	}
+/*displaying car image of item 5 Renault KWID*/
+#c105 {
+    
+    content: url('car5.jpeg');
+    }
+
+/*displaying car image of item 6 Toyota Avalon*/
+#c106 {
+    
+    content: url('car6.jpg');
+    }
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+	
+	
+    
+
+
+
+
+     

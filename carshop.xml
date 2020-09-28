@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- linking with CSS file -->
+<?xml-stylesheet type="text/css" href="car_shop.css"?> 
+<!-- root tag vehicle_shop -->
+<vehicle_shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='catalog_18029593.xsd'>
+<!-- data about the shop which holds information of shop-->
+	<shop_information>
+		<shop_name shop_id="s1">AB Automotive</shop_name>
+		<address ad_id="a1" format="city/distrcit">Balaju,KTM</address>
+		<telephone_number>012346789</telephone_number>
+		<website_address>www.ABautomotive.com</website_address>
+		<logo logo_id="l1" logo_name="company logo"/>
+	</shop_information>
+	<!--items of vehicle shop which includes the details of car and car found in this shop-->
+    <items>
+    	<!--Maruti Alto one of the item of vehicle shop and its features -->
+        <item>
+		      <car_image id="c101" name="car1"/>
+	          <item_name>Maruti Alto 800</item_name>
+		      <item_number>Item number :-1</item_number>
+		      <brand_name brand_id="b1">Brand name :-Maruti</brand_name>
+		      <quantity>Quantity :-10</quantity>
+		      <price>Price :-20 lakhs</price>
+		      <manufacturer man_id="m1" address="japan">Manufacturer :-Suzuki</manufacturer>
+		      <car_type>Car type :-fuel vehicle</car_type>
+		      <color color_id="c1">Color :-blue</color>
+		      <dimension>Dimension :-3445 X 1490 X 1475</dimension>
+		      <TransmissionGearType>Transmission gear Type :- Manual</TransmissionGearType>
+		      <seating_capacity>Seat capacity :-5</seating_capacity>
+		      <Displacement>Displacement :-796 cc</Displacement>
+		      <Power>Power :-47.3bhp@6000rpm</Power>
+		      <gears>Gears :-5</gears>
+		      <description about="Maruti Alto 800">
+		      	  The Maruti Alto 800 is offered with 1 Petrol engine and 1 CNG engine. The Petrol engine is 796 cc compared with 796 cc CNG engine. The Manual Transmission is available. It gives a mileage of 800 22.05 kmpl to 31.59 km / kg according to the model and fuel size. 
+		      </description>
+	    </item>
+       <!--Ford Figo one of the item of vehicle shop and its features -->
+        <item>
+		      <car_image id="c102" name="car2"/>
+	          <item_name> Ford Figo</item_name>
+		      <item_number>Item number :-2</item_number>
+		      <brand_name brand_id="b1">Brand name :-Ford </brand_name>
+		      <quantity>Quantity :-5</quantity>
+		      <price>Price :-15 lakhs</price>
+		      <manufacturer man_id="m2" address="Germany">Manufacturer :-Ford</manufacturer>
+		      <car_type>Car type :-fuel vehicle</car_type>
+		      <color color_id="c2">Color:-silver</color>
+		      <dimension>Dimension :-3941 X 1704 X 1525mm</dimension>
+		      <TransmissionGearType>Transmission gear Type :- manual</TransmissionGearType>
+		      <seating_capacity>Seat capacity :-5</seating_capacity>
+		      <Displacement>Displacement :-1499 cc</Displacement>
+		      <Power>Power :-98.96bhp@3750rpm</Power>
+		      <gears>Gears :-5</gears>
+		      <description about="Ford Figo">
+		      	  It has a499 cc diesel engine and 1194 cc petrol engine. The Manual transmission makes it available. It gives a mileage of 18.5 to 24.4 kmpl depending on the range and fuel size. There are total  5-seat in this car and has a 3941 mm long, 1704 mm wide and 2490 mm wheelbase.
+		      </description>
+	    </item>
+	    <!--Hyundai Elite i20 one of the item of vehicle shop and its features -->
+	    <item>
+		      <car_image id="c103" name="car3"/>
+	          <item_name>Hyundai Elite i20</item_name>
+		      <item_number>Item number :-3</item_number>
+		      <brand_name brand_id="b1">Brand name :-Hyundai</brand_name>
+		      <quantity>Quantity :-5</quantity>
+		      <price>Price :-30 lakhs</price>
+		      <manufacturer man_id="m3" address="japan">Manufacturer :-Hyundai</manufacturer>
+		      <car_type>Car type :-fuel vehicle</car_type>
+		      <color color_id="c3">Color :-Red</color>
+		      <dimension>Dimension :-3985 X 1734 X 1505 mm</dimension>
+		      <TransmissionGearType>Transmission gear Type :- Manual</TransmissionGearType>
+		      <seating_capacity>Seat capacity :-5</seating_capacity>
+		      <Displacement>Displacement :-1197 cc</Displacement>
+		      <Power>Power :-81.86bhp@6000rpm</Power>
+		      <gears>Gears :-5</gears>
+		      <description about="Hyundai Elite i20">
+		      	 The Hyundai Elite i20 is equipped with 1 Petrol Engine. Petrol engine is 1197 cc. ... The Elite i20 gives a mileage of 17.4-18.6 kmpl depending on the range and fuel size. The Elite i20 is a 5-seater Hatchback and is 3985 mm long, 1734 mm wide, and 2570 mm wheelbase.
+		      </description>
+	    </item>
+        <!--Chevrolet Spark i20 one of the item of vehicle shop and its features -->
+        <item>
+		      <car_image id="c104" name="car4"/>
+	          <item_name>Chevrolet Spark</item_name>
+		      <item_number>Item number :-4</item_number>
+		      <brand_name brand_id="b4">Brand name :-Chevrolet</brand_name>
+		      <quantity>Quantity :-5</quantity>
+		      <price>Price :-10 lakhs</price>
+		      <manufacturer man_id="m4" address="Russia">Manufacturer :-Chevrolet </manufacturer>
+		      <car_type>Car type :-fuel vehicle</car_type>
+		      <color color_id="c4">Color :-white</color>
+		      <dimension>Dimension :-3495 X 1495 X 1518 mm</dimension>
+		      <TransmissionGearType>Transmission gear Type :-Manual</TransmissionGearType>
+		      <seating_capacity>Seat capacity :-5</seating_capacity>
+		      <Displacement>Displacement :-995 cc</Displacement>
+		      <Power>Power :- 62.1bhp@5400rpm</Power>
+		      <gears>Gears :-5</gears>
+		      <description about="Chevrolet Spark">
+		      	  It has a Petrol engine of 995 cc and the LPG engine of 995 cc. The transmission is available. IT gives a mileage of 13.2 km / kg to 18.0 kmpl according to the variability and fuel size. There are total 5 seats in this car and it is 3495 mm in length, 1495 mm in width.
+		      </description>
+	    </item>  
+	    <!--Renault KWID i20 one of the item of vehicle shop and its features -->  
+	    <item>
+		      <car_image id="c105" name="car5"/>
+	          <item_name>Renault KWID</item_name>
+		      <item_number>Item number :-5</item_number>
+		      <brand_name brand_id="b5">Brand name :-Renault</brand_name>
+		      <quantity>Quantity :-5</quantity>
+		      <price>Price :-10 lakhs</price>
+		      <manufacturer man_id="m5" address="France">Manufacturer :-Renault</manufacturer>
+		      <car_type>Car type :-fuel vehicle</car_type>
+		      <color color_id="c5">Color :-red</color>
+		      <dimension>Dimension :-3731 X 1579 X 1474 mm</dimension>
+		      <TransmissionGearType>Transmission gear Type :-Manual</TransmissionGearType>
+		      <seating_capacity>Seat capacity :-5</seating_capacity>
+		      <Displacement>Displacement :-799 cc</Displacement>
+		      <Power>Power :- 53 bhp @ 5678 rpm</Power>
+		      <gears>Gears :-5</gears>
+		      <description about="Renault KWID">
+		      	  It is one of the cheapest car avilable between 8 to 10 lakhs. There are five variants of this car available now in market.
+		      </description>
+	    </item> 
+	    	    <!--Toyota Avalon i20 one of the item of vehicle shop and its features -->   
+	    <item>
+		      <car_image id="c106" name="car6"/>
+	          <item_name>Toyota Avalon</item_name>
+		      <item_number>Item number :-6</item_number>
+		      <brand_name brand_id="b6">Brand name :-Toyota</brand_name>
+		      <quantity>Quantity :-5</quantity>
+		      <price>Price :-50 lakhs</price>
+		      <manufacturer man_id="m6" address="Japan">Manufacturer :-Toyota</manufacturer>
+		      <car_type>Car type :-fuel vehicle</car_type>
+		      <color color_id="c6">Color :-black</color>
+		      <dimension>Dimension :-3495 X 1495 X 1518 mm</dimension>
+		      <TransmissionGearType>Transmission gear Type :-automatic</TransmissionGearType>
+		      <seating_capacity>Seat capacity :-6</seating_capacity>
+		      <Displacement>Displacement :3.5 L/211</Displacement>
+		      <Power>Power :- 62.1bhp@5400rpm</Power>
+		      <gears>Gears :-5</gears>
+		      <description about="Toyota Avalon">
+		      	  This car is produced by toyota company and it is five seat sedan. it's have a attractive looks. It's price is above rs 5o lakhs.
+		      	  
+		      </description>
+	    </item>    
+	    
+	</items>
+	
+</vehicle_shop>
